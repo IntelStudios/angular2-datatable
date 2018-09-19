@@ -1,8 +1,8 @@
-var dataTable_directive = require('./lib/DataTable');
-var defaultSorter_directive = require('./lib/DefaultSorter');
-var paginator_component = require('./lib/Paginator');
-var bootstrapPaginator_component = require('./lib/BootstrapPaginator');
-var dataTable_module = require('./lib/DataTableModule');
+var dataTable_directive = require('./lib/src/DataTable');
+var defaultSorter_directive = require('./lib/src/DefaultSorter');
+var paginator_component = require('./lib/src/Paginator');
+var bootstrapPaginator_component = require('./lib/src/BootstrapPaginator');
+var dataTable_module = require('./lib/src/DataTableModule');
 
 exports.DataTable = dataTable_directive.DataTable;
 exports.DataEvent = dataTable_directive.DataEvent;
